@@ -63,10 +63,7 @@ nano -w vpnsetup.sh
 First, update your system with `yum update` and reboot. This is optional, but recommended.
 
 ```bash
-yum -y install wget nano
-wget https://github.com/hwdsl2/setup-ipsec-vpn/raw/master/vpnsetup_centos.sh -O vpnsetup_centos.sh
-nano -w vpnsetup_centos.sh
-[Edit and replace IPSEC_PSK, VPN_USER and VPN_PASSWORD with your own values]
+wget https://raw.githubusercontent.com/starzou/setup-ipsec-vpn/master/vpnsetup_centos.sh -O vpnsetup_centos.sh
 /bin/sh vpnsetup_centos.sh
 ```
 
