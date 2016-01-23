@@ -22,9 +22,9 @@
 # - All values MUST be quoted using 'single quotes'
 # - DO NOT use these characters inside values:  \ " '
 
-IPSEC_PSK='your_ipsec_pre_shared_key'
-VPN_USER='your_vpn_username'
-VPN_PASSWORD='your_very_secure_password'
+IPSEC_PSK='forme'
+VPN_USER='starzou'
+VPN_PASSWORD='star0.0.'
 
 # Be sure to read *important notes* at the URL below:
 # https://github.com/hwdsl2/setup-ipsec-vpn#important-notes
